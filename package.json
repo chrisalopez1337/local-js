@@ -1,0 +1,27 @@
+{
+  "name": "local-js",
+  "version": "0.0.1",
+  "description": "Simple local storage tool",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisalopez1337/local-js.git"
+  },
+  "keywords": [
+    "local",
+    "storage",
+    "javascript"
+  ],
+  "author": "Chris Lopez (chrisalopez1337)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisalopez1337/local-js/issues"
+  },
+  "homepage": "https://github.com/chrisalopez1337/local-js#readme"
+}
