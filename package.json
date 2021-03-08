@@ -1,6 +1,6 @@
 {
   "name": "local-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple local storage tool",
   "main": "lib/main.js",
   "directories": {
