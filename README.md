@@ -110,6 +110,23 @@ Simple local storage tools.
     getManyWithTTL(array); // [ 'first_value', [ 'second', 'value' ], ...];
 ```
 
+## `deleteOne(key)`
+### Info: Removes a single item from localStorage.
+```javascript
+    const { deleteOne } = require('local-js');
+
+    const key = 'my_key';
+    deleteOne(key);
+```
+
+## `deleteAll()`
+### Info: Clears all data from localStorage.
+```javascript
+    const { deleteAll } = require('local-js');
+
+    deleteAll();
+```
+
 ## `pruneExpired()`
 ### Info: Clears all keys with TTL that have expired.
 ```javascript
@@ -117,3 +134,4 @@ Simple local storage tools.
 
     pruneExpired();
 ```
+
