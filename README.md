@@ -135,3 +135,10 @@ Simple local storage tools.
     pruneExpired();
 ```
 
+## `getAll()`
+### Info: Get all items from local storage.
+```javascript
+    const { getAll } = require('local-js');
+
+    getAll(); // [ { key: 'your_key', data: [ 'your', 'data' ] }, ...];
+```
